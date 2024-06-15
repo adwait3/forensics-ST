@@ -13,4 +13,14 @@ then i filtered the usb packets using the command
 `usb.transfer_type==0x01 and frame.len==35 and !(usb.capdata == 00:00:00:00:00:00:00:00)
 `
 
-then I used this [repo](https://github.com/TeamRocketIst/ctf-usb-keyboard-parser) to parse my keyboard input 
+then I used this [repo](https://github.com/syminical/PUK) to parse my keyboard input 
+
+i used 
+`
+tshark -r usb.pcapng -T fields -e usb.capdata | grep -E "." | grep -v '00000000.txt 
+python PUK.py capdata.txt
+`
+
+![image](https://github.com/adwait3/forensics-ST/assets/148553626/2b0b9980-3878-4e8e-84f5-9eb6930f21d8)
+
+## flag = BITSCTF{I_-7h1nk_th3y_4Re_k3yl0991ng_ME!}
