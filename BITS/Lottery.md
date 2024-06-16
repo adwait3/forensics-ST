@@ -20,8 +20,15 @@ at `C:\Users\MogamBro\AppData\Local\Temp\tmpd1tif_2a`
 
 ![image](https://github.com/adwait3/forensics-ST/assets/148553626/d01cc8ae-3219-4cc4-b05f-23aa25740e47)
 
+IV = 
+```
+urfuckedmogambro
+```
 
-key = `FBF60E95C2F3C96F36E1195538E34E30CF1A290F1C14CD5E699E476A3BE2BC5E`
+key = 
+```
+FBF60E95C2F3C96F36E1195538E34E30CF1A290F1C14CD5E699E476A3BE2BC5E
+```
 
 input = 
 ```
@@ -30,3 +37,5 @@ input =
 putting ecerything in cyberchef gave the flag 
 
 ![image](https://github.com/adwait3/forensics-ST/assets/148553626/ddd8b39b-f595-4a48-8a45-4a3afbcde1a5)
+
+## flag = BITSCTF{1_r3c3ived_7he_b0mbz}
